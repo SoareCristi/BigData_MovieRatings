@@ -1,0 +1,8 @@
+Place here the following datasets:
+
+1. boxoffice.csv (https://data.world/eliasdabbas/boxofficemojo-alltime-domestic-data)
+2. title.akas.tsv.gz (https://datasets.imdbws.com)
+3. title.basics.tsv.gz (https://datasets.imdbws.com)
+4. title.crew.tsv.gz (https://datasets.imdbws.com)
+5. title.principals.tsv.gz (https://datasets.imdbws.com)
+6. title.ratings.tsv.gz (https://datasets.imdbws.com)
