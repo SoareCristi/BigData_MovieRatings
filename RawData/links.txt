@@ -6,3 +6,16 @@ Place here the following datasets:
 4. title.crew.tsv.gz (https://datasets.imdbws.com)
 5. title.principals.tsv.gz (https://datasets.imdbws.com)
 6. title.ratings.tsv.gz (https://datasets.imdbws.com)
+7. wikidata_query.csv (https://query.wikidata.org/#)
+   using the following SPARQL query:
+
+SELECT DISTINCT ?item ?imdbID ?domesticGross WHERE {
+  ?item wdt:P31 wd:Q11424;
+        wdt:P2142 ?domesticGross;
+        wdt:P345 ?imdbID.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+
+8. After all of the above, run data_gathering.ipynb up to cell 19
+    then run data_api_calls.ipynb
+    then continue data_gathering.ipynb
