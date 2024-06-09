@@ -234,3 +234,6 @@ $RECYCLE.BIN/
 # Ingore all .csv and .gz files from RawData folder
 RawData/*.csv
 RawData/*.gz
+
+!RawData/data_api.csv
+!RawData/wikidata_query.csv
